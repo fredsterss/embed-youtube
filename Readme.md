@@ -1,33 +1,32 @@
-
 # embed-youtube
 
-  Embed youtube videos.
+Embed youtube videos.
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
+Install with [component(1)](http://component.io):
 
-    $ component install fredsterss/embed-youtube
+  $ component install fredsterss/embed-youtube
 
 ## Example
 
-  ```
-  var youtube = require('embed-youtube');
-  youtube(id, width, height).show();
-  ```
+```
+var youtube = require('embed-youtube');
+youtube(id, width, height).show();
+```
 
-  To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
+To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
 
 ## API
 
-  ### Youtube(video-id, width, height)
+### Youtube(video-id, width, height)
 
-  Create a new Youtube embed instance with the given ``video-id``, ``width`` and ``height``.
+Create a new Youtube embed instance with the given ``video-id``, ``width`` and ``height``.
 
-  ### #show(fun)
+### #show(fun)
 
-  Show the youtube player, emitting ``show``, optionally calling ``fn``.
+Show the youtube player, emitting ``show``, optionally calling ``fn``.
 
 ## License
 
-  MIT
+MIT
