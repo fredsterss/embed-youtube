@@ -34,6 +34,10 @@ Show the youtube player, emitting ``show``, optionally calling ``fn``.
 
 Play whatever video is loaded, emitting ``play``, optionally calling ``fn``.
 
+### #pause(fn)
+
+Pause whatever video is loaded, emitting ``pause``, optionally calling ``fn``.
+
 ## License
 
 MIT
