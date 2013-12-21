@@ -1,10 +1,18 @@
 <html>
   <head></head>
   <body>
+    <script src="http://ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
     <script src="../build/build.js"></script>
     <script>
       var youtube = require("embed-youtube");
-      youtube("n3nZtcjRLyY", 640, 360);
+      window.youtube = youtube;
+
+      window.onYouTubePlayerReady = function(playerId) {
+        ytplayer = document.getElementById("myytplayer");
+        console.log(ytplayer);
+      };
+      
+      youtube("n3nZtcjRLyY", 640, 360).show();
     </script>
   </body>
 </html>
