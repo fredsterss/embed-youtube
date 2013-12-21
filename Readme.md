@@ -13,8 +13,9 @@ $ component install fredsterss/embed-youtube
 ## Example
 
 ```
-var youtube = require('embed-youtube');
-youtube(id, width, height).show();
+var y = require('embed-youtube');
+var youtube = y(id, width, height);
+y.show();
 ```
 
 To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
