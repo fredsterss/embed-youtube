@@ -12,23 +12,27 @@ $ component install fredsterss/embed-youtube
 
 ## Example
 
+Embed-youtube currently depends on ``swfobject.js``. 
+@TODO - componentize this.
+
+```
+<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+```
+
+
 ```
 var y = require('embed-youtube');
-var youtube = y(id, width, height);
-y.show().play();
+var youtube = y(el, videoId, width, height);
+y.play();
 ```
 
 To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
 
 ## API
 
-### Youtube(video-id, width, height)
+### Youtube(el, videoId, width, height)
 
-Create a new Youtube embed instance with the given ``video-id``, ``width`` and ``height``.
-
-### #show(fn)
-
-Show the youtube player, emitting ``show``, optionally calling ``fn``.
+Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``.
 
 ### #play(fn)
 
