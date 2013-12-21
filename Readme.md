@@ -30,6 +30,10 @@ Create a new Youtube embed instance with the given ``video-id``, ``width`` and `
 
 Show the youtube player, emitting ``show``, optionally calling ``fn``.
 
+### #play(fn)
+
+Play whatever video is loaded, emitting ``play``, optionally calling ``fn``.
+
 ## License
 
 MIT
