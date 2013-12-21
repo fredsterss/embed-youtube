@@ -26,7 +26,7 @@ var youtube = y(el, videoId, width, height);
 y.play();
 ```
 
-To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
+To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``width`` and ``height``.
 
 ## API
 
