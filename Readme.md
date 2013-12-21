@@ -13,11 +13,12 @@ $ component install fredsterss/embed-youtube
 ## Example
 
 Embed-youtube currently depends on ``swfobject.js``. 
-@TODO - componentize this.
 
 ```
 <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
 ```
+
+@TODO - componentize this.
 
 
 ```
