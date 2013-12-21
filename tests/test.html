@@ -5,13 +5,6 @@
     <script src="../build/build.js"></script>
     <script>
       var youtube = require("embed-youtube");
-      window.youtube = youtube;
-
-      window.onYouTubePlayerReady = function(playerId) {
-        ytplayer = document.getElementById("myytplayer");
-        console.log(ytplayer);
-      };
-      
       youtube("n3nZtcjRLyY", 640, 360).show();
     </script>
   </body>
