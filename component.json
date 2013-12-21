@@ -6,7 +6,8 @@
   "keywords": [],
   "dependencies": {
     "component/emitter": "*",
-    "component/domify": "*"
+    "component/domify": "*",
+    "component/event": "*"
   },
   "license": "MIT",
   "main": "lib/index.js",
