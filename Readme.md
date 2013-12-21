@@ -6,7 +6,9 @@ Embed youtube videos.
 
 Install with [component(1)](http://component.io):
 
-  $ component install fredsterss/embed-youtube
+```
+$ component install fredsterss/embed-youtube
+```
 
 ## Example
 
