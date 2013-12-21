@@ -1,4 +1,4 @@
 *.mustache
 components
 build
-node_modules
+public
