@@ -1,7 +1,6 @@
 
 build: components lib/index.js lib/index.html
 	@echo building
-	@minstache < lib/template.mustache > lib/template.js
 	@component build --dev --out public/build
 
 components: component.json

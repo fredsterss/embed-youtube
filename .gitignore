@@ -1,4 +1,3 @@
-*.mustache
 components
 build
 public

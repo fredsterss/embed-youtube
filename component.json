@@ -12,11 +12,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": [
-    "lib/template.js",
     "lib/index.js"
-  ],
-  "templates": [
-    "lib/index.html"
   ],
   "remotes": []
 }
