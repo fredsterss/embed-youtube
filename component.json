@@ -2,7 +2,7 @@
   "name": "embed-youtube",
   "repo": "fredsterss/embed-youtube",
   "description": "Embed youtube videos",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [],
   "dependencies": {
     "component/emitter": "*",
