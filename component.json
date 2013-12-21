@@ -1,0 +1,22 @@
+{
+  "name": "embed-youtube",
+  "repo": "fredsterss/embed-youtube",
+  "description": "Embed youtube videos",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/emitter": "*",
+    "component/domify": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": [
+    "lib/index.js"
+  ],
+  "templates": [
+    "lib/index.html"
+  ]
+}
