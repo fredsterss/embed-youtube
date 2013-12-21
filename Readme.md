@@ -23,7 +23,7 @@ To use it, pass in the Youtube video ``id``, ``width`` and ``height``.
 
 Create a new Youtube embed instance with the given ``video-id``, ``width`` and ``height``.
 
-### #show(fun)
+### #show(fn)
 
 Show the youtube player, emitting ``show``, optionally calling ``fn``.
 
