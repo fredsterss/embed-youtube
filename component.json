@@ -2,12 +2,11 @@
   "name": "embed-youtube",
   "repo": "fredsterss/embed-youtube",
   "description": "Embed youtube videos",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "keywords": ["youtube", "ui", "video", "videos"],
   "dependencies": {
     "fredsterss/swfobject": "*",
     "component/emitter": "*",
-    "component/domify": "*",
     "ramitos/sgen": "*"
   },
   "license": "MIT",
