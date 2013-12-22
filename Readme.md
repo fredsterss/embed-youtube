@@ -21,6 +21,8 @@ youtube.seekTo(60);
 
 To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``width`` and ``height``.
 
+__Note:__ a common pattern when using embed-youtube is to hide the video's container element when it is not in use. Unfortunately, for certain browsers, changing the visibility of content loaded via ``<object>`` or ``<embed>`` tags will cause that content to be reloaded, and the event handlers are lost in the process. Therefore you must use some other way of hiding (eg: ``overflow: hidden; height: 0px;`` etc.) if you want to reuse the player.
+
 ## API
 
 ### Youtube(el, videoId, width, height, fn)
