@@ -31,17 +31,22 @@ To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``,
 
 ## API
 
-### Youtube(el, videoId, width, height)
+### Youtube(el, videoId, width, height, fn)
 
-Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``.
+Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``. Optionally calls ``fn``.
 
-### #play(fn)
+### #play(seconds, fn)
 
-Play whatever video is loaded, emitting ``play``, optionally calling ``fn``.
+Play whatever video is loaded, emitting ``play``. If ``seconds`` is not passed, ``#seekTo(seconds)`` is automatically called. Optionally calls ``fn``.
 
 ### #pause(fn)
 
 Pause whatever video is loaded, emitting ``pause``, optionally calling ``fn``.
+
+### #seekTo(seconds, fn)
+
+Seek to a specified time in the video, optionally calling ``fn``.
+
 
 ## License
 
