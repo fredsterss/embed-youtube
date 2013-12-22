@@ -1,6 +1,6 @@
 # embed-youtube
 
-Embed youtube videos.
+[Component](https://github.com/component/component) for embedding youtube videos.
 
 ## Installation
 
