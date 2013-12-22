@@ -6,7 +6,8 @@
   "keywords": [],
   "dependencies": {
     "component/emitter": "*",
-    "component/domify": "*"
+    "component/domify": "*",
+    "ramitos/sgen": "*"
   },
   "license": "MIT",
   "main": "lib/index.js",
