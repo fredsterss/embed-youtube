@@ -12,15 +12,6 @@ $ component install fredsterss/embed-youtube
 
 ## Example
 
-Embed-youtube currently depends on ``swfobject.js``. 
-
-```
-<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
-```
-
-@TODO - componentize this.
-
-
 ```
 var y = require('embed-youtube');
 var youtube = y(el, videoId, width, height);
