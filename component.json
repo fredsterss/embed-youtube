@@ -3,8 +3,9 @@
   "repo": "fredsterss/embed-youtube",
   "description": "Embed youtube videos",
   "version": "1.2.0",
-  "keywords": [],
+  "keywords": ["youtube", "ui"],
   "dependencies": {
+    "fredsterss/swfobject": "*",
     "component/emitter": "*",
     "component/domify": "*",
     "ramitos/sgen": "*"

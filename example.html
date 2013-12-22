@@ -2,15 +2,13 @@
   <head></head>
   <body>
     <div id="youtube"></div>
-
-    <script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+    
     <script src="build/build.js"></script>
     <script>
       var yt = require("embed-youtube");
       var el = document.getElementById("youtube");
       var youtube = yt(el, "n3nZtcjRLyY", 640, 360);
-      youtube.play();
-      youtube.seekTo(60);
+      youtube.play().seekTo(60);
     </script>
   </body>
 </html>
