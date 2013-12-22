@@ -25,9 +25,9 @@ __Note:__ a common pattern when using embed-youtube is to hide the video's conta
 
 ## API
 
-### Youtube(el, videoId, width, height, fn)
+### Youtube(el, videoId, width, height, controls, fn)
 
-Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``. Optionally calls ``fn``.
+Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``. Set ``controls`` to 0 to hide player's controls. Optionally calls ``fn``.
 
 ### #play(seconds, fn)
 
