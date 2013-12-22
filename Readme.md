@@ -37,7 +37,7 @@ Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``wi
 
 ### #play(seconds, fn)
 
-Play whatever video is loaded, emitting ``play``. If ``seconds`` is not passed, ``#seekTo(seconds)`` is automatically called. Optionally calls ``fn``.
+Play whatever video is loaded, emitting ``play``. If ``seconds`` is passed, ``#seekTo(seconds)`` is automatically called. Optionally calls ``fn``.
 
 ### #pause(fn)
 
