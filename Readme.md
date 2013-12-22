@@ -14,7 +14,7 @@ $ component install fredsterss/embed-youtube
 
 ```
 var y = require('embed-youtube');
-var youtube = y(el, videoId, width, height);
+var youtube = y(el, videoId, { width: 640, height: 360 });
 youtube.play();
 youtube.seekTo(60);
 ```
@@ -25,9 +25,9 @@ __Note:__ a common pattern when using embed-youtube is to hide the video's conta
 
 ## API
 
-### Youtube(el, videoId, width, height, controls, fn)
+### Youtube(el, videoId, options, fn)
 
-Insert a new Youtube embed instance into ``el`` with the given ``videoId``, ``width`` and ``height``. Set ``controls`` to 0 to hide player's controls. Optionally calls ``fn``.
+Insert a new Youtube embed instance into ``el`` with the given ``videoId``. Options hash must contain ``options.width`` and ``options.height`` and may contain ``options.controls``. Set ``options.controls`` to 0 to hide player's controls. Optionally calls ``fn``.
 
 ### #play(seconds, fn)
 
