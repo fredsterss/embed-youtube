@@ -48,6 +48,10 @@ Pause whatever video is loaded, emitting ``pause``, optionally calling ``fn``.
 
 Seek to a specified time in the video, optionally calling ``fn``.
 
+### #stopVideo(fn)
+
+Stop the current video, optionally calling ``fn``.
+
 
 ## License
 
