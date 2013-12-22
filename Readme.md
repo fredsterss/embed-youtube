@@ -24,7 +24,8 @@ Embed-youtube currently depends on ``swfobject.js``.
 ```
 var y = require('embed-youtube');
 var youtube = y(el, videoId, width, height);
-y.play();
+youtube.play();
+youtube.seekTo(60);
 ```
 
 To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``width`` and ``height``.
