@@ -5,6 +5,7 @@
   "version": "3.4.0",
   "keywords": ["youtube", "ui", "video", "videos"],
   "dependencies": {
+    "component/bind": "*",
     "fredsterss/swfobject": "*",
     "component/emitter": "*",
     "matthewmueller/uid": "*"
