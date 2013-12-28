@@ -8,7 +8,8 @@
     "component/bind": "*",
     "fredsterss/swfobject": "*",
     "component/emitter": "*",
-    "matthewmueller/uid": "*"
+    "matthewmueller/uid": "*",
+    "component/querystring": "*"
   },
   "license": "MIT",
   "main": "lib/index.js",
