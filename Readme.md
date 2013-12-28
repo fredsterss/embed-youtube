@@ -14,9 +14,15 @@ $ component install fredsterss/embed-youtube
 
 ```
 var y = require('embed-youtube');
+var videoId = "n3nZtcjRLyY";
+var el = document.getElementById("youtube-holder");
+
 var youtube = y(el, videoId, { width: 640, height: 360 });
+// => loads youtube video n3nZtcjRLyY inside el
 youtube.play();
+// => plays video
 youtube.seekTo(60);
+// => seeks to 60 seconds into the video
 ```
 
 To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``width`` and ``height``.
