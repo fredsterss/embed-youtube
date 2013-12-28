@@ -1,5 +1,3 @@
-# embed-youtube
-
 [Component](https://github.com/component/component) for embedding youtube videos.
 
 ## Installation
@@ -12,26 +10,33 @@ $ component install fredsterss/embed-youtube
 
 ## Example
 
-```
+```js
 var y = require('embed-youtube');
 var videoId = "n3nZtcjRLyY";
 var el = document.getElementById("youtube-holder");
 
 var youtube = y(el, videoId, { width: 640, height: 360 });
-// => loads youtube video n3nZtcjRLyY inside el
+// loads youtube video "n3nZtcjRLyY" inside el
+
 youtube.play();
-// => plays video
+// plays video
+
 youtube.seekTo(60);
-// => seeks to 60 seconds into the video
+// seeks to 60 seconds into the video
 ```
 
-To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``width`` and ``height``.
+To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``options.width`` and ``options.height``.
 
 ## API
 
 ### Youtube(el, videoId, options, fn)
 
-Insert a new Youtube embed instance into ``el`` with the given ``videoId``. Options hash must contain ``options.width`` and ``options.height`` and may contain ``options.controls``. Set ``options.controls`` to 0 to hide player's controls. Optionally calls ``fn``.
+Insert a new Youtube embed instance into ``el`` with the given ``videoId``, options hash and optional callback ``fn``.
+
+Options:
+- ``width`` Number (px) (required)
+- ``height`` Number (px) (required)
+- ``controls`` Boolean
 
 ### #play(seconds, fn)
 
