@@ -7,7 +7,7 @@
   "dependencies": {
     "fredsterss/swfobject": "*",
     "component/emitter": "*",
-    "ramitos/sgen": "*"
+    "matthewmueller/uid": "*"
   },
   "license": "MIT",
   "main": "lib/index.js",
