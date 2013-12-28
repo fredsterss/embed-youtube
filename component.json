@@ -2,7 +2,7 @@
   "name": "embed-youtube",
   "repo": "fredsterss/embed-youtube",
   "description": "Embed youtube videos",
-  "version": "2.4.0",
+  "version": "3.4.0",
   "keywords": ["youtube", "ui", "video", "videos"],
   "dependencies": {
     "fredsterss/swfobject": "*",
