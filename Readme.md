@@ -56,7 +56,7 @@ Stop the current video, optionally calling ``fn``.
 
 ## Common Issues
 
-### Failed to load resource
+### Failed to load resource error in console
 
 You need to run this code on a webserver for it to work correctly. [Pow](http://pow.cx/) works great.
 
