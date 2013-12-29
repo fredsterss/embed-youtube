@@ -25,7 +25,7 @@ youtube.seekTo(60);
 // seeks to 60 seconds into the video
 ```
 
-To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, ``options.width`` and ``options.height``.
+To use it, pass in the ``el`` you want to attach it to, the Youtube ``videoId``, and an ``options`` object with ``width`` and ``height``.
 
 ## API
 
